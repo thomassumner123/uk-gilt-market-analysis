@@ -12,7 +12,8 @@
 
 ## Key Findings
 
-**1. Markets rejected the transitory narrative in July 2021 — five months before the BoE acted**
+**1. Markets rejected the transitory narrative in July 2021 - five months before the BoE acted**
+
 Using a 3.5% threshold on the 5yr breakeven inflation rate (BoE 2% CPI target + RPI basis + inflation risk premium), the first sustained breach occurred in July 2021. Bank Rate was 0.05% and realised CPI was 3.22%. The gilt market stopped believing inflation was transitory before the BoE acknowledged it.
 
 **2. The gilt sell-off had two analytically distinct phases**
@@ -20,6 +21,7 @@ Using a 3.5% threshold on the 5yr breakeven inflation rate (BoE 2% CPI target + 
 - *2022:* Real yields surged 284bps as the hiking cycle delivered genuine real tightening. Both nominal and index-linked gilts fell - no hiding place in duration.
 
 **3. Long duration destroyed value over the decade**
+
 Annual total return decomposition (full DCF pricing, constant maturity par bond) across 2016–2025:
 
 | Maturity | Cumulative Return 2016–2025 |
@@ -32,6 +34,7 @@ Annual total return decomposition (full DCF pricing, constant maturity par bond)
 The 2022 inflation shock completely reversed the conventional case for long duration outperformance over long holding periods.
 
 **4. OLS regression identifies a persistent UK fiscal risk premium**
+
 Regressing the gilt-Treasury spread against GBPUSD, UK-US inflation differential, VIX, and BoE-Fed rate differential (R²=0.56), the residuals reveal:
 - Post-Brexit 2016–17: negative residuals - UK gilts a safe haven, yielding below fundamentals
 - Truss episode Sep 2022: +76bps unexplained - pure fiscal credibility shock
@@ -39,9 +42,11 @@ Regressing the gilt-Treasury spread against GBPUSD, UK-US inflation differential
 - Current (2024–26): ongoing positive residuals - fiscal premium not fully unwound
 
 **5. The Truss intervention: −16.2 standard deviations**
+
 Event study using z-scores relative to a pre-event window (Jan–Sep 2022). The BoE intervention on 28 September 2022 produced a 112.8bp fall in the 30yr gilt yield in a single day - a z-score of −16.2σ, the most statistically extreme event in the full dataset. Under normally distributed returns, the probability of a move this large is effectively zero.
 
 **6. Current 30yr gilt yield is the highest in the dataset**
+
 As of March 2026, the 30yr gilt yields 5.63% — above both the Truss peak (4.85%) and the October 2023 cycle peak (5.04%). The BoE is cutting rates yet long-end yields are rising. The fiscal risk premium and incomplete inflation re-anchoring (10yr breakeven 3.53%) are overwhelming monetary policy signals at the long end.
 
 ---
