@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project analyses UK gilt market dynamics across the inflation cycle 2016–2026 using daily data from the Bank of England, ONS, and FRED. It constructs the UK gilt yield curve, decomposes yields into real and inflation components, runs an OLS regression decomposing the gilt-Treasury spread against macroeconomic drivers, and conducts an event study of the September 2022 Truss mini-budget crisis.
+This project analyses UK gilt market dynamics from 2016 to 2026 using daily data from the Bank of England, ONS, and FRED. It constructs the UK gilt yield curve, decomposes yields into real and inflation components, runs an OLS regression decomposing the gilt-Treasury spread against macroeconomic drivers, and conducts an event study of the September 2022 Truss mini-budget crisis.
 
 ---
 
