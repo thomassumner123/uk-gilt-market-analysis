@@ -1,4 +1,4 @@
-# UK Gilt Market Dynamics Through the Inflation Cycle 2016–2026
+# UK Gilt Market Dynamics Through 2016–2026
 
 **Independent research project - Thomas Sumner, March - April 2026**
 
