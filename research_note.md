@@ -7,8 +7,8 @@
 
 ## Executive Summary
 
-This note analyses UK gilt market dynamics across a decade of extraordinary volatility
-- from the post-financial crisis low rate era through Brexit, COVID, the worst inflation
+This note analyses UK gilt market dynamics across a decade of extraordinary volatility:
+from the post-financial crisis low rate era through Brexit, COVID, the worst inflation
 surge in forty years, and a mini-budget crisis that brought the gilt market to the brink
 of systemic dysfunction.
 
