@@ -88,7 +88,7 @@ The 30yr remained positive but compressed to around 0.7% at its trough. In yield
 curve terms the curve was unusually flat, reflecting both the BoE's forward guidance
 and the market's belief that rates would remain low for an extended period.
 
-![Yield Curve Evolution](outputs/charts/p01_yield_curve_evolution.png)
+![Yield Curve](https://raw.githubusercontent.com/thomassumner123/uk-gilt-market-analysis/main/outputs/charts/p01_yield_curve_evolution.png)
 *Chart 1: UK gilt yield curve evolution 2016–2026 (Panel A) and curve slope measures
 (Panel B). Events A–E mark: Brexit vote (Jun 2016), COVID lockdown (Mar 2020),
 BoE first hike (Dec 2021), Truss mini-budget (Sep 2022), BoE cuts begin (Aug 2024).*
@@ -121,7 +121,7 @@ with semi-annual coupon convention - the standard for UK gilts. This approach ca
 convexity correctly, which matters significantly for large yield moves. A duration
 approximation would materially understate the price losses on long-dated gilts in 2022.
 
-![Total Return Decomposition](outputs/charts/p02_annual_total_return.png)
+![Total Return](https://raw.githubusercontent.com/thomassumner123/uk-gilt-market-analysis/main/outputs/charts/p02_annual_total_return.png)
 *Chart 2: Annual total return decomposition by maturity 2016–2025. Bars show coupon
 income (green), roll-down (orange), and price return (blue/red). Line shows total return.
 Cumulative returns shown in each panel title.*
@@ -189,7 +189,7 @@ expectations. This reflects the BoE's 2% CPI target plus the structural RPI basi
 approximately 100bps and a modest inflation risk premium. Levels below this are
 consistent with anchored expectations given the measurement issues noted above.
 
-![Transitory Threshold](outputs/charts/p04_transitory_threshold.png)
+![Transitory Threshold](https://raw.githubusercontent.com/thomassumner123/uk-gilt-market-analysis/main/outputs/charts/p04_transitory_threshold.png)
 *Chart 3: UK 5yr breakeven inflation rate against the 3.5% transitory narrative threshold.
 The sustained breach in July 2021 is marked - five months before the BoE's first rate hike.*
 
@@ -219,7 +219,7 @@ something the headline yield move obscures: the 2021–2022 gilt sell-off was no
 event but two analytically distinct episodes with different drivers and very different
 portfolio implications.
 
-![Inflation Expectations](outputs/charts/p03_inflation_expectations.png)
+![Inflation Expectations](https://raw.githubusercontent.com/thomassumner123/uk-gilt-market-analysis/main/outputs/charts/p03_inflation_expectations.png)
 *Chart 4: Panel A shows breakeven inflation rates and realised CPI 2016–2026. Panel B
 shows the nominal yield decomposed into real yield and breakeven components.
 The extended period of negative real yields is shaded.*
@@ -292,7 +292,7 @@ as central banks tightened. The global nature of the inflation shock meant that 
 of the gilt sell-off reflected forces common to all developed market sovereign bond
 markets rather than anything specific to the UK.
 
-![International Comparison](outputs/charts/p05_international_regression.png)
+![International Comparison](https://raw.githubusercontent.com/thomassumner123/uk-gilt-market-analysis/main/outputs/charts/p05_international_regression.png)
 *Chart 5: Panel A shows 10yr government bond yields for UK, US, and Germany 2016–2026.
 Panel B shows OLS regression residuals - the unexplained UK-specific risk premium.
 Positive residuals indicate UK gilts yielding above what macro factors predict.*
@@ -425,7 +425,7 @@ crisis week compare to the pre-event baseline, and which maturities moved most o
 each day? It is this maturity pattern, rather than the absolute size of the scores, that
 carries the most analytical weight.
 
-![Truss Event Study](outputs/charts/p06_truss_event_study.png)
+![Truss Event Study](https://raw.githubusercontent.com/thomassumner123/uk-gilt-market-analysis/main/outputs/charts/p06_truss_event_study.png)
 *Chart 6: Panel A shows UK gilt yields by maturity through the crisis period. Panel B
 shows UK vs US 10yr yields with the period of UK yielding above US shaded. Panel C
 shows daily yield change scores relative to the pre-event window of January to
@@ -551,7 +551,7 @@ BoE having delivered a full hiking cycle. UK CPI stood at 2.8% in February 2026.
 last mile of disinflation is proving difficult and the market is not yet pricing a credible
 return to target.
 
-![Current Environment](outputs/charts/p07_current_environment.png)
+![Current Environment](https://raw.githubusercontent.com/thomassumner123/uk-gilt-market-analysis/main/outputs/charts/p07_current_environment.png)
 *Chart 7: Panel A shows the yield curve shape at key historical dates. The current curve
 sits above all historical reference points at the long end. Panel B shows the 2yr and
 30yr yields across the full sample with the cutting cycle shaded.*
