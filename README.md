@@ -43,10 +43,12 @@ The gilt-Treasury spread moves for two reasons: global factors affecting all sov
 
 An OLS regression against four macroeconomic drivers - GBPUSD, UK-US inflation differential, VIX, and BoE-Fed rate differential - explains 56% of spread variation. The BoE-Fed rate differential dominates (t-stat 9.32), confirming monetary policy divergence as the primary systematic driver. The residuals isolate the UK-specific risk premium:
 
-Post-Brexit 2016–17: negative residuals - UK gilts a safe haven, yielding below fundamentals
-Truss Sep 2022: +76bps unexplained - fiscal credibility shock
-Mid-2023: +107bps peak - persistent fiscal risk premium larger than the Truss spike itself
-2024–26: residuals remain positive - fiscal premium not fully unwound despite the BoE cutting cycle, with the 30yr at 5.63% exceeding both the Truss peak and the October 2023 cycle high
+- Post-Brexit 2016–17: negative residuals - UK gilts a safe haven, yielding below fundamentals
+- Truss Sep 2022: +76bps unexplained - fiscal credibility shock
+- Mid-2023: +107bps peak - persistent fiscal risk premium larger than the Truss spike itself
+- 2024–26: residuals remain positive - fiscal premium not fully unwound despite the BoE 
+  cutting cycle, with the 30yr at 5.63% exceeding both the Truss peak and the October 
+  2023 cycle high
 
 The shift from negative residuals in 2016–17 to persistently positive residuals post-2022 quantifies how international investors' perception of UK sovereign risk changed - from safe haven to fiscally stressed market.
 
