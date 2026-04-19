@@ -191,7 +191,7 @@ consistent with anchored expectations given the measurement issues noted above.
 
 ![Transitory Threshold](outputs/charts/p04_transitory_threshold.png)
 *Chart 3: UK 5yr breakeven inflation rate against the 3.5% transitory narrative threshold.
-The sustained breach in July 2021 is marked — five months before the BoE's first rate hike.*
+The sustained breach in July 2021 is marked - five months before the BoE's first rate hike.*
 
 The 5yr breakeven crossed 3.5% on a sustained basis in July 2021. At that point Bank
 Rate was 0.05%, realised CPI was 3.22%, and the BoE's August 2021 Monetary Policy
@@ -272,3 +272,116 @@ The incomplete re-anchoring has direct implications for gilt market pricing. A c
 bank that cannot credibly commit to returning inflation to target cannot credibly anchor
 long-end yields. The current 30yr gilt yield of 5.63% partly reflects this credibility gap,
 alongside the fiscal risk premium discussed in the next section.
+
+---
+
+## 3. International Context and the UK Fiscal Risk Premium
+
+UK gilt yields do not move in isolation. They are pulled by global forces - US Treasury
+yields, risk sentiment, monetary policy divergence - and pushed by UK-specific factors
+like fiscal credibility and sterling dynamics. Separating these two forces is analytically
+important. A yield move driven by global repricing tells a different story, and has
+different portfolio implications, than one driven by a deterioration in UK sovereign risk.
+
+### Co-movement and Divergence
+
+The 10yr gilt yield tracked US Treasuries and German Bunds broadly through the
+low-rate era of 2016–2021. All three moved lower through COVID, all three began
+rising as inflation emerged in 2021, and all three repriced sharply higher through 2022
+as central banks tightened. The global nature of the inflation shock meant that much
+of the gilt sell-off reflected forces common to all developed market sovereign bond
+markets rather than anything specific to the UK.
+
+![International Comparison](outputs/charts/p05_international_regression.png)
+*Chart 5: Panel A shows 10yr government bond yields for UK, US, and Germany 2016–2026.
+Panel B shows OLS regression residuals - the unexplained UK-specific risk premium.
+Positive residuals indicate UK gilts yielding above what macro factors predict.*
+
+The divergence from global factors is visible in specific episodes. Following the Brexit
+vote in June 2016, UK gilt yields fell relative to US Treasuries as investors treated
+gilts as a safe haven and priced the growth consequences of EU exit. This safe-haven
+dynamic persisted through 2016 and into 2017. The September 2022 Truss mini-budget 
+produced the opposite: a sharp UK-specific spike in gilt yields with no corresponding move 
+in US Treasuries or German Bunds, reflecting a pure fiscal credibility shock rather than a
+global repricing event.
+
+### Decomposing the Gilt-Treasury Spread
+
+To separate global from UK-specific drivers systematically, an OLS regression was run
+with the gilt-Treasury spread - the difference between the UK 10yr gilt yield and the
+US 10yr Treasury yield - as the dependent variable. Four macroeconomic drivers were
+included as explanatory variables: GBPUSD, the UK-US 10yr inflation differential, VIX
+as a measure of global risk sentiment, and the BoE-Fed rate differential.
+
+The regression explains 56% of spread variation over the 2016–2026 sample period.
+The BoE-Fed rate differential is the dominant driver, with a coefficient of 0.64 and a
+t-statistic of 9.32 - confirming that monetary policy divergence between the UK and
+US is the primary systematic driver of cross-country yield spreads. GBPUSD is also
+significant, with a coefficient of −2.64 and a t-statistic of −4.33, reflecting the
+relationship between sterling weakness and gilt underperformance. VIX is not
+statistically significant at conventional levels, suggesting that global risk-off episodes
+do not systematically widen or compress the gilt-Treasury spread once monetary policy
+divergence is controlled for.
+
+The regression is run in levels rather than changes, and stationarity is not formally
+tested. Results are therefore interpreted as descriptive rather than causal - the
+regression identifies empirical associations rather than structural relationships.
+
+### The Residuals — Isolating the UK Risk Premium
+
+The residuals from the regression capture what the four macro drivers cannot explain.
+A positive residual means UK gilts are yielding more than the model predicts given
+current macro conditions - an unexplained UK-specific premium. A negative residual
+means gilts are yielding less than predicted - a safe-haven discount.
+
+Four distinct episodes emerge from the residual series:
+
+**Post-Brexit 2016–17: negative residuals.** Following the referendum, UK gilts
+consistently yielded below what macro factors predicted. Markets were treating the UK
+as a safe haven relative to the political uncertainty in continental Europe and pricing
+the growth drag of Brexit as deflationary rather than inflationary. The gilt-Treasury
+spread was compressed relative to fundamentals.
+
+**Truss episode September 2022: +76bps unexplained.** At the peak of the mini-budget
+crisis the residual reached +76bps - UK gilts yielding three quarters of a percentage
+point more than the model predicted after controlling for monetary policy divergence,
+sterling, and global risk appetite. This is the quantified fiscal credibility shock: the
+pure UK-specific premium that emerged when markets lost confidence in the
+government's fiscal framework.
+
+**Mid-2023: +107bps peak.** The largest unexplained residual in the dataset occurred
+not at the peak of the Truss crisis but in mid-2023, several months after the immediate
+political shock had passed. This is analytically significant. The Truss episode triggered
+a re-rating of UK sovereign risk that persisted and in fact deepened as markets
+absorbed the scale of the UK's structural fiscal challenge. The fiscal risk premium was
+larger and more persistent than the acute shock that catalysed it.
+
+**2024–26: ongoing positive residuals.** Despite the BoE cutting rates and the
+political situation stabilising under successive governments, the regression residuals
+remain positive through to the end of the sample. The fiscal risk premium has not
+fully unwound. The 30yr gilt at 5.63% as of March 2026 exceeds both the Truss peak
+of 4.85% and the October 2023 cycle high of 5.04% - the highest in the full dataset -
+reflecting a market that continues to demand elevated compensation for UK sovereign
+risk beyond what monetary policy divergence alone can explain.
+
+The evolution from negative residuals in 2016–17 to persistently positive residuals
+post-2022 quantifies a structural shift in how international investors perceive UK
+sovereign risk. The UK gilt market has moved from safe haven to fiscally stressed
+sovereign over the course of the decade - a transition that the regression residuals
+make analytically visible and empirically measurable.
+
+### Portfolio Implications
+
+The fiscal risk premium has direct implications for fixed income portfolio construction.
+If the premium is structural rather than cyclical - reflecting genuine concern about
+UK debt sustainability rather than temporary political noise - it argues for persistent
+underweight positioning in long-dated gilts relative to US Treasuries and German Bunds.
+The regression finding that sterling weakness accompanies gilt underperformance
+further suggests that hedging sterling exposure is important when holding UK long-end
+duration in an international portfolio context.
+
+The current environment, with the BoE cutting rates while 30yr yields rise, is the clearest
+expression of this dynamic. Monetary policy easing is being overwhelmed by the fiscal
+risk premium at the long end. Until that premium compresses, conventional duration
+extension strategies in UK gilts face a structural headwind that yield levels alone do
+not capture.
