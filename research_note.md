@@ -327,7 +327,7 @@ The regression is run in levels rather than changes, and stationarity is not for
 tested. Results are therefore interpreted as descriptive rather than causal - the
 regression identifies empirical associations rather than structural relationships.
 
-### The Residuals — Isolating the UK Risk Premium
+### The Residuals - Isolating the UK Risk Premium
 
 The residuals from the regression capture what the four macro drivers cannot explain.
 A positive residual means UK gilts are yielding more than the model predicts given
@@ -385,3 +385,121 @@ expression of this dynamic. Monetary policy easing is being overwhelmed by the f
 risk premium at the long end. Until that premium compresses, conventional duration
 extension strategies in UK gilts face a structural headwind that yield levels alone do
 not capture.
+
+---
+
+## 4. September 2022: When the Gilt Market Broke
+
+The Truss mini-budget of 23 September 2022 produced the most extreme gilt market
+moves in the dataset. Understanding why requires separating three distinct but
+overlapping forces: the fiscal credibility shock, the monetary policy repricing, and the
+LDI doom loop. Each dominated at different points across the crisis week, and the
+maturity pattern of daily yield moves reveals which force was in control on each day.
+
+### Background - A Market Already Under Stress
+
+The mini-budget did not arrive in a vacuum. By mid-2022 the BoE had already begun
+its hiking cycle and inflation was running at 10.1%. Markets were repricing UK monetary
+policy aggressively throughout the year.
+
+Critically, the market had already begun pricing Truss-specific fiscal risk before the
+formal announcement. The government's decision to publish the fiscal statement
+without an accompanying OBR forecast, combined with signals from the leadership
+contest of significant unfunded tax cuts, had pushed the 30yr yield from 2.43% on
+1 August to 3.72% by 22 September - a 129bp move before a single line of the budget
+had been delivered. The full market impact of the Truss fiscal episode should therefore
+be measured from the August baseline rather than the day before the announcement.
+
+### The Event Study
+
+Daily yield changes were measured against the standard deviation of normal daily
+moves over the pre-event window of January to September 2022. This produces a
+standardised score for each day - how many times larger than a typical daily move
+was that day's yield change.
+
+This approach has an important limitation worth stating explicitly. Financial returns
+have fat tails as extreme moves occur more frequently than a normal distribution
+predicts. The standardised scores therefore cannot be interpreted as precise probability
+statements. What they provide is a clean relative measure: how did each day in the
+crisis week compare to the pre-event baseline, and which maturities moved most on
+each day? It is this maturity pattern, rather than the absolute size of the scores, that
+carries the most analytical weight.
+
+![Truss Event Study](outputs/charts/p06_truss_event_study.png)
+*Chart 6: Panel A shows UK gilt yields by maturity through the crisis period. Panel B
+shows UK vs US 10yr yields with the period of UK yielding above US shaded. Panel C
+shows daily yield change scores relative to the pre-event window of January to
+September 2022.*
+
+### Three Phases - Three Forces
+
+**Mini-budget day and the immediate aftermath (23–26 September): monetary policy
+repricing dominates**
+
+On the mini-budget day itself the short end moved more than the long end. The 2yr
+and 5yr recorded larger standardised moves than the 10yr and 30yr. This is
+counterintuitive for a fiscal shock, as conventional wisdom suggests unfunded tax cuts
+should hit the long end hardest through higher term premium and supply concerns.
+The short end leading reflects something different: markets immediately pricing
+emergency BoE tightening in response to the inflationary fiscal loosening. The gilt
+market was pricing a policy response of aggressive rate hikes to offset the fiscal stimulus.
+
+Panel B of Chart 6 shows UK 10yr gilt yields crossing above US 10yr Treasury yields
+during this period - a UK-specific move with no equivalent in the US market,
+confirming the domestic nature of the shock. The gilt-Treasury spread widened sharply
+in a matter of days, directly visible in the regression residuals discussed in Section 3.
+
+**27 September: the LDI doom loop**
+
+By the third day of the crisis the maturity pattern reversed sharply. The 30yr recorded
+a far larger standardised move than the 2yr, with the long end now driving the market.
+This shift marks the point at which the LDI doom loop became the dominant force.
+
+Liability-driven investment funds used by UK pension schemes to hedge long-duration
+liabilities held leveraged positions in long-dated gilts, typically through gilt repos and
+interest rate swaps. These instruments required daily variation margin payments in cash
+when yields moved against the fund. As 30yr yields rose sharply, funds faced margin
+calls they could not meet from cash reserves - their assets were fully invested. To
+raise cash they sold gilts. Multiple funds doing this simultaneously drove yields higher,
+which triggered further margin calls, which forced further selling.
+
+A stylised illustration clarifies the mechanics. A fund with £100m of equity supporting
+£300m of gilt exposure through 3x leverage faced a mark-to-market loss of
+approximately £53m on a 113bp yield move - more than half its equity in a matter of
+days. More critically, it faced £53m of variation margin cash demands within 24 hours,
+requiring approximately £65m of distressed gilt sales at depressed prices to raise the
+necessary cash. Multiplied across dozens of similarly positioned funds selling into the
+same market simultaneously, the selling pressure became self-reinforcing.
+
+**28 September: the BoE intervention**
+
+On 28 September the BoE announced it would purchase up to £65bn of long-dated
+gilts, acting as buyer of last resort to break the forced selling spiral. The 30yr yield
+fell 112.8bps in a single day - the largest single-day move in the full dataset and more
+than three times larger than the next most extreme event.
+
+The BoE did not need to deploy the full £65bn. The announcement of a guaranteed
+buyer was sufficient to stop the forced selling as funds no longer faced a one-sided
+market and could meet margin calls without further distressed gilt sales. By end of
+October 2022, following Kwarteng's dismissal and the reversal of the fiscal package,
+30yr yields had returned to approximately 3.49% - below even the pre-budget day
+level of 3.72%, though well above the August clean baseline of 2.43%.
+
+### What the Crisis Reveals
+
+The Truss episode illustrates two things that are not visible from monthly yield data
+or headline commentary.
+
+First, leverage transforms a market stress event into a systemic event. Without the
+LDI leverage, pension funds facing rising yields would have experienced mark-to-market
+losses but no forced selling. The leverage, and the daily variation margin mechanics
+it entailed, converted a fiscal credibility shock into a near-systemic liquidity crisis
+requiring central bank intervention to break.
+
+Second, the crisis was fundamentally about the speed of cash demands rather than
+solvency. Pension funds were not insolvent - their liabilities also fell as yields rose,
+maintaining funding ratios broadly. The problem was that variation margin calls
+demanded cash within 24 hours on funds with no liquid reserves. This distinction
+matters: it explains why the BoE's announcement of a guaranteed buyer was sufficient
+to break the loop without the funds needing to be recapitalised. A liquidity crisis can
+be resolved by providing liquidity. A solvency crisis cannot.
