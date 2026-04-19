@@ -14,15 +14,19 @@ This project analyses UK gilt market dynamics from 2016 to 2026 using daily data
 
 **1. Markets rejected the transitory narrative in July 2021 - five months before the BoE acted**
 
-Using a 3.5% threshold on the 5yr breakeven inflation rate (BoE 2% CPI target + RPI basis + inflation risk premium), the first sustained breach occurred in July 2021. Bank Rate was 0.05% and realised CPI was 3.22%. The gilt market stopped believing inflation was transitory before the BoE acknowledged it.
+The 5yr breakeven inflation rate crossed a 3.5% threshold on a sustained basis in July 2021 - five months before the BoE's first rate hike. This threshold reflects the BoE's 2% CPI target plus the structural RPI basis (~100bps) and a modest inflation risk premium. Bank Rate was 0.05% and realised CPI was 3.22%. The gilt market had stopped believing inflation was transitory before the BoE acknowledged it
 
 **2. The gilt sell-off had two analytically distinct phases**
-- *2021:* Inflation expectations drove nominal yields higher - real yields barely moved. An inflation expectations story. Index-linked gilts offered protection.
-- *2022:* Real yields surged 284bps as the hiking cycle delivered genuine real tightening. Both nominal and index-linked gilts fell - no hiding place in duration.
+
+The gilt sell-off of 2021–2022 had two analytically distinct phases with very different portfolio implications.
+
+In 2021, nominal yields rose 85bps while real yields moved just 11bps - the entire move was driven by rising breakeven inflation. Index-linked gilts partially protected portfolios.
+
+In 2022, real yields surged 284bps as the BoE hiking cycle delivered genuine monetary tightening. Both nominal and index-linked gilts fell simultaneously - no hiding place in duration at any maturity.
 
 **3. Long duration destroyed value over the decade**
 
-Annual total return decomposition (full DCF pricing, constant maturity par bond) across 2016–2025:
+Annual total return decomposition across 2016–2025, using full DCF pricing on a constant maturity par bond:
 
 | Maturity | Cumulative Return 2016–2025 |
 |---|---|
@@ -31,23 +35,26 @@ Annual total return decomposition (full DCF pricing, constant maturity par bond)
 | 10yr | +3.38% |
 | 30yr | **−2.06%** |
 
-The 2022 inflation shock completely reversed the conventional case for long duration outperformance over long holding periods.
+The 2022 inflation shock completely reversed the conventional case for long duration outperformance - over a full decade, the 30yr gilt produced a negative cumulative return.
 
 **4. OLS regression identifies a persistent UK fiscal risk premium**
 
-Regressing the gilt-Treasury spread against GBPUSD, UK-US inflation differential, VIX, and BoE-Fed rate differential (R²=0.56), the residuals reveal:
-- Post-Brexit 2016–17: negative residuals - UK gilts a safe haven, yielding below fundamentals
-- Truss episode Sep 2022: +76bps unexplained - pure fiscal credibility shock
-- Mid-2023: +107bps peak - persistent fiscal risk premium larger than the Truss spike itself
-- Current (2024–26): ongoing positive residuals - fiscal premium not fully unwound
+The gilt-Treasury spread moves for two reasons: global factors affecting all sovereign bond markets, and UK-specific factors like fiscal credibility and sterling weakness. 
 
-**5. The Truss intervention: −16.2 standard deviations**
+An OLS regression against four macroeconomic drivers - GBPUSD, UK-US inflation differential, VIX, and BoE-Fed rate differential - explains 56% of spread variation. The BoE-Fed rate differential dominates (t-stat 9.32), confirming monetary policy divergence as the primary systematic driver. The residuals isolate the UK-specific risk premium:
 
-Event study using z-scores relative to a pre-event window (Jan–Sep 2022). The BoE intervention on 28 September 2022 produced a 112.8bp fall in the 30yr gilt yield in a single day - a z-score of −16.2σ, the most statistically extreme event in the full dataset. Under normally distributed returns, the probability of a move this large is effectively zero.
+Post-Brexit 2016–17: negative residuals - UK gilts a safe haven, yielding below fundamentals
+Truss Sep 2022: +76bps unexplained - fiscal credibility shock
+Mid-2023: +107bps peak - persistent fiscal risk premium larger than the Truss spike itself
+2024–26: residuals remain positive - fiscal premium not fully unwound despite the BoE cutting cycle, with the 30yr at 5.63% exceeding both the Truss peak and the October 2023 cycle high
 
-**6. Current 30yr gilt yield is the highest in the dataset**
+The shift from negative residuals in 2016–17 to persistently positive residuals post-2022 quantifies how international investors' perception of UK sovereign risk changed - from safe haven to fiscally stressed market.
 
-As of March 2026, the 30yr gilt yields 5.63% — above both the Truss peak (4.85%) and the October 2023 cycle peak (5.04%). The BoE is cutting rates yet long-end yields are rising. The fiscal risk premium and incomplete inflation re-anchoring (10yr breakeven 3.53%) are overwhelming monetary policy signals at the long end.
+**5. September 2022: When the Gilt Market Broke**
+
+The BoE intervention on 28 September 2022 produced a 112.8bp fall in the 30yr gilt yield in a single day - the largest single-day move in the dataset and 16.2 standard deviations from normal market behaviour. For context, a 5σ move has a probability of less than 0.00003% under normal market conditions. 
+
+The mini-budget itself (23 September) produced moves of +5.1σ on the 2yr and +5.6σ on the 5yr - statistically impossible under normal conditions. The maturity pattern of z-scores reveals which force dominated each day: the short end led initially as markets priced emergency BoE tightening, then the long end dominated as the LDI doom loop drove forced gilt selling.The long end was driven by leveraged pension funds forced to sell gilts to meet variation margin calls - a liquidity crisis, not a solvency crisis, that required the BoE to act as buyer of last resort.
 
 ---
 
