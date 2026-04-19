@@ -503,3 +503,206 @@ demanded cash within 24 hours on funds with no liquid reserves. This distinction
 matters: it explains why the BoE's announcement of a guaranteed buyer was sufficient
 to break the loop without the funds needing to be recapitalised. A liquidity crisis can
 be resolved by providing liquidity. A solvency crisis cannot.
+
+---
+
+## 5. Current Environment and Portfolio Implications
+
+The UK gilt market in March 2026 presents a paradox. The BoE is actively cutting rates,
+having begun its easing cycle in August 2024, yet gilt yields are at their highest level
+in the full 2016–2026 dataset and the highest among G7 countries. The 30yr gilt yields
+5.63% - above both the Truss peak of 4.85% and the October 2023 cycle high of 5.04%.
+Understanding why requires drawing together the threads from the preceding sections
+and connecting them to the specific dynamics of March 2026.
+
+### The Current Yield Curve in Historical Context
+
+The table below places current gilt yields against five reference points across the
+decade.
+
+| | Pre-Truss Aug 2022 | Truss Peak Sep 2022 | Yield Peak Oct 2023 | Cuts Begin Aug 2024 | Current Mar 2026 |
+|---|---|---|---|---|---|
+| 2yr | 1.67% | 4.53% | 4.61% | 3.92% | 4.28% |
+| 10yr | 1.85% | 4.43% | 4.58% | 3.86% | 4.94% |
+| 30yr | 2.27% | 4.85% | 5.04% | 4.50% | **5.63%** |
+| 2/10 spread | +0.18% | −0.10% | −0.03% | −0.06% | +0.66% |
+| 10yr breakeven | 3.60% | 3.37% | 3.56% | 3.47% | 3.53% |
+| 10yr real yield | −1.75% | +1.06% | +1.01% | +0.39% | **+1.42%** |
+
+Three observations define the current environment.
+
+The 30yr yield at 5.63% is the highest in the dataset, exceeding even the acute
+stress of the Truss episode. This is not a post-crisis hangover. It reflects a structural
+repricing of UK sovereign risk that has continued to develop long after the immediate
+political shock passed, consistent with the persistent regression residuals identified
+in Section 3.
+
+The 10yr real yield at +1.42% is also the highest in the dataset, a complete reversal
+from the deeply negative real yields of the QE era. In January 2021 the 10yr real yield
+stood at −2.98%. The 440bp swing in real yields over five years represents one of the
+most dramatic shifts in the real cost of UK government borrowing in modern history.
+For fixed income investors, positive real yields on gilts represent a genuine change in
+the opportunity set - gilts now offer positive real returns for the first time since the
+pre-QE era.
+
+The 10yr breakeven inflation rate at 3.53% remains above the 3.5% threshold
+identified in Section 2 as consistent with anchored inflation expectations, despite the
+BoE having delivered a full hiking cycle. UK CPI stood at 2.8% in February 2026. The
+last mile of disinflation is proving difficult and the market is not yet pricing a credible
+return to target.
+
+![Current Environment](outputs/charts/p07_current_environment.png)
+*Chart 7: Panel A shows the yield curve shape at key historical dates. The current curve
+sits above all historical reference points at the long end. Panel B shows the 2yr and
+30yr yields across the full sample with the cutting cycle shaded.*
+
+### Two Stories: Short End and Long End
+
+The short end and long end of the gilt curve tell different stories in the current
+environment, driven by different forces operating over different timescales.
+
+At the short end, the BoE cutting cycle broadly achieved its intended effect through
+late 2024 and into early 2026 - the 2yr yield was roughly flat as delivered cuts were
+absorbed by markets and the rate path was broadly priced. The picture changed
+sharply in March 2026. The US-Iran conflict, beginning in late February 2026,
+drove an oil price shock that materially complicated the UK inflation outlook. The BoE's
+March 2026 MPC meeting then delivered a significant hawkish surprise. Markets had
+expected the MPC to signal a pause; instead the committee signalled an openness to
+hiking. The shift in policy expectations was extraordinary in its speed and market-implied 
+Bank Rate expectations for end-2026 moved 115bps in a single month, swinging from 
+pricing approximately 50bps of further cuts to pricing 60bps of hikes. The 2yr yield spiked 
+sharply higher through March as a result, ending the sample period at 4.28%.
+
+The BoE's hawkish pivot reflects the scarring effect of the 2021–2022 inflation
+episode - the very dynamic documented in Section 2 of this note. Having been
+criticised for being too slow to tighten in 2021, the MPC signalled it would err on the
+side of caution and tighten sooner rather than later in response to the energy shock,
+in order to keep inflation expectations anchored. The institutional memory of the
+transitory narrative failure is directly shaping current policy communication. Whether
+this represents appropriate caution or a policy error - hiking into a weakening
+economy facing a supply-side shock - remains actively debated. The concern is that
+tightening into a fragile growth environment would be unambiguously negative for
+forward growth without necessarily resolving the inflation shock, which is supply-side
+rather than demand-driven.
+
+At the long end the story is different and longer-running. Three structural forces have
+driven the 30yr from 4.50% when cuts began to 5.63% as of March 2026 - a 113bp
+move that predates the March geopolitical shock and cannot be explained by it alone.
+
+The fiscal risk premium identified in Section 3 has not unwound. Regression residuals
+remain persistently positive through to the end of the sample, suggesting the market
+continues to demand excess compensation for UK sovereign risk beyond what monetary
+policy divergence alone justifies. The DMO issued over £270bn of gilts in 2024–25,
+creating a supply overhang that keeps the term premium elevated regardless of BoE
+policy at the short end. The March geopolitical shock adds a further dimension here:
+if the government were to provide fiscal support to offset the energy price shock to
+consumers, breaking its fiscal rules in the process,that would be directly bearish
+for gilt yields through both higher issuance and renewed fiscal credibility concerns,
+echoing the dynamics of 2022.
+
+Incomplete inflation re-anchoring prevents the long end from rallying independently.
+A market pricing a 10yr breakeven inflation rate of 3.53% is implicitly saying it does
+not fully believe the BoE will return inflation to 2% on a sustained basis. The
+geopolitical shock has reinforced this scepticism - energy-driven inflation in March
+2026 pushes breakevens higher and makes the re-anchoring story harder to tell
+credibly.
+
+Global term premium has also risen. US Treasury yields have remained elevated as
+markets absorb the fiscal implications of the US deficit trajectory. Given the
+relationship between UK and US long-end yields identified in Section 3, global term
+premium provides a persistent structural headwind to any UK long-end rally.
+
+### Portfolio Scenario Analysis
+
+Three scenarios frame the key risks and positioning implications over a 12-month
+horizon from March 2026. Yield moves are judgement-based estimates informed by
+historical episodes in the dataset. Empirical estimation of yield curve sensitivity to
+policy rate changes was attempted but produced statistically unreliable results,
+reflecting that monetary policy explains only a small fraction of monthly gilt yield
+variation at this frequency. The resolution of the geopolitical situation as of the data
+cut-off adds material uncertainty to the probability distribution across all three
+scenarios.
+
+**Scenario 1: Soft landing (base case)**
+Energy prices fall back from their March 2026 spike as geopolitical tensions ease.
+Inflation falls toward 2.5% by end-2026 as services inflation moderates and the energy
+shock proves temporary. The BoE does not hike in April and resumes cutting toward
+neutral at around 3.25–3.50% by mid-2027. UK growth is modest but positive and the
+fiscal position is broadly stable. The curve bull-steepens as the short end retraces
+the March spike and prices further cuts. The long end remains elevated - term premium
+persists even in the benign scenario. Short end move calibrated to approximately 50bps
+of additional cuts from current levels, partially reversing the March 2026 repricing.
+
+| Maturity | Current | Move | Implied |
+|---|---|---|---|
+| 2yr | 4.28% | −50bps | 3.78% |
+| 5yr | 4.41% | −35bps | 4.06% |
+| 10yr | 4.94% | −20bps | 4.74% |
+| 30yr | 5.63% | +10bps | 5.73% |
+
+Positioning: long 2yr and 5yr to capture the reversal of the March repricing as
+energy prices stabilise and the BoE resumes cutting. Underweight 30yr - term
+premium limits any long-end rally even in the base case. Neutral on index-linked gilts
+as partial inflation re-anchoring reduces but does not eliminate their relative attraction.
+
+**Scenario 2: Stagflation re-emergence (downside risk)**
+The geopolitical shock proves more persistent than assumed in the base case. Energy
+prices remain elevated and feed through into services inflation, pushing CPI back
+toward 4–5%. The BoE hikes in April and potentially beyond, despite weak growth.
+UK growth stagnates as higher rates compound the energy price squeeze on consumers.
+The fiscal position deteriorates as tax revenues disappoint. The curve bear-flattens
+as the short end reprices further hikes while growth fears cap the long-end move.
+This scenario is a direct continuation and deepening of the dynamics already visible
+in the March 2026 data. Yield moves calibrated to approximately one-third of the
+2021–2022 inflation re-emergence episode, reflecting a less severe shock from an
+already elevated starting point.
+
+| Maturity | Current | Move | Implied |
+|---|---|---|---|
+| 2yr | 4.28% | +75bps | 5.03% |
+| 5yr | 4.41% | +50bps | 4.91% |
+| 10yr | 4.94% | +35bps | 5.29% |
+| 30yr | 5.63% | +20bps | 5.83% |
+
+Positioning: short duration across the curve. Overweight index-linked gilts - the
+10yr breakeven inflation rate of 3.53% is likely underpricing the risk of a genuine
+inflation re-emergence at 4–5%. If inflation rebounds, breakeven inflation rates would
+reprice significantly higher and index-linked gilts would outperform conventional gilts.
+
+**Scenario 3: Fiscal stress (tail risk)**
+Gilt issuance overwhelms demand as the government breaks its fiscal rules to provide
+energy price support, triggering renewed fiscal credibility concerns. Term premium
+reprices sharply at the long end. OBR forecasts deteriorate and international investors
+demand higher compensation for UK sovereign risk. The BoE faces the worst of both
+worlds - hiking to contain inflation while fiscal loosening undermines long-end
+credibility. The curve bear-steepens sharply. Long-end moves motivated by the Truss
+episode, where the 30yr moved approximately 258bps from the August 2022 clean
+baseline to peak, and by the regression residuals showing 60–107bps of persistent
+unexplained UK risk premium. The scenario assumes a slow grind rather than a sudden
+shock, with 100bps at the 30yr as the central estimate.
+
+| Maturity | Current | Move | Implied |
+|---|---|---|---|
+| 2yr | 4.28% | −25bps | 4.03% |
+| 5yr | 4.41% | +15bps | 4.56% |
+| 10yr | 4.94% | +60bps | 5.54% |
+| 30yr | 5.63% | +100bps | 6.63% |
+
+Positioning: maximum short duration at the long end. Overweight 2yr versus 30yr
+as a steepening trade. A 30yr yield of 6.63% would represent a new historical extreme,
+above any observation in the 2016–2026 dataset, and would constitute a new
+sovereign risk regime for the UK gilt market.
+
+In all three scenarios the 30yr remains elevated or rises further. Even the base case
+implies a 30yr yield of 5.73%. A meaningful compression in long-end yields requires
+either a credible fiscal consolidation that reduces the term premium, a sustained
+de-escalation of geopolitical risk that allows energy prices to fall back, or a growth
+shock severe enough to force aggressive BoE easing - none of which is the base case
+as of March 2026.
+
+---
+
+*This note was produced independently as a research project. All data sourced from
+the Bank of England Statistical Interactive Database, ONS, and Federal Reserve (FRED).
+Full code, data methodology, and notebooks available at:*
+*[github.com/thomassumner123/uk-gilt-market-analysis](https://github.com/thomassumner123/uk-gilt-market-analysis)*
