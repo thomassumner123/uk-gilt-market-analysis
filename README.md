@@ -14,7 +14,7 @@ This project analyses UK gilt market dynamics from 2016 to 2026 using daily data
 
 **1. Markets rejected the transitory narrative in July 2021 - five months before the BoE acted**
 
-The 5yr breakeven inflation rate crossed a 3.5% threshold on a sustained basis in July 2021 - five months before the BoE's first rate hike. This threshold reflects the BoE's 2% CPI target plus the structural RPI basis (~100bps) and a modest inflation risk premium. Bank Rate was 0.05% and realised CPI was 3.22%. The gilt market had stopped believing inflation was transitory before the BoE acknowledged it
+The 5yr breakeven inflation rate crossed a 3.5% threshold on a sustained basis in July 2021 - five months before the BoE's first rate hike. This threshold reflects the BoE's 2% CPI target plus the structural RPI basis (~100bps) and a modest inflation risk premium. Bank Rate was 0.05% and realised CPI was 2.02%. The gilt market had stopped believing inflation was transitory before the BoE acknowledged it
 
 **2. The gilt sell-off had two analytically distinct phases**
 
@@ -56,7 +56,7 @@ The shift from negative residuals in 2016–17 to persistently positive residual
 
 The BoE intervention on 28 September 2022 produced a 112.8bp fall in the 30yr gilt yield in a single day - the largest single-day move in the dataset and 16.2 standard deviations from normal market behaviour. For context, a 5σ move has a probability of less than 0.00003% under normal market conditions. 
 
-The mini-budget itself (23 September) produced moves of +5.1σ on the 2yr and +5.6σ on the 5yr - statistically impossible under normal conditions. The maturity pattern of z-scores reveals which force dominated each day: the short end led initially as markets priced emergency BoE tightening, then the long end dominated as the LDI doom loop drove forced gilt selling.The long end was driven by leveraged pension funds forced to sell gilts to meet variation margin calls - a liquidity crisis, not a solvency crisis, that required the BoE to act as buyer of last resort.
+The mini-budget itself (23 September) produced moves of +5.1σ on the 2yr and +5.6σ on the 5yr - statistically impossible under normal conditions. The maturity pattern of z-scores reveals which force dominated each day: the short end led initially as markets priced emergency BoE tightening, then the long end dominated as the LDI doom loop drove forced gilt selling. The long end was driven by leveraged pension funds forced to sell gilts to meet variation margin calls - a liquidity crisis, not a solvency crisis, that required the BoE to act as buyer of last resort.
 
 ---
 
@@ -127,7 +127,7 @@ All data sourced via free public APIs and official government statistical releas
 
 - **Spot curves over redemption yields** - BoE modelled zero coupon spot curves used throughout - coupon-independent and maturity-specific.
 - **Total return decomposition** - full DCF pricing formula (not duration approximation), constant maturity par bond, semi-annual coupon convention. Captures convexity - material for large yield moves
-- **Breakeven inflation** - derived from BoE nominal minus real spot curves. RPI basis (~100bps above CPI) means figures overstate CPI-equivalent expectations. No independent cross-check available - UK inflation swap data not freely accessible
+- **Breakeven inflation** - derived from BoE nominal minus real spot curves. RPI basis (~100bps above CPI) means figures overstate CPI-equivalent expectations. No independent cross-check available - UK inflation swap data not freely accessible. Sustained breach defined as 20 consecutive business days above threshold, approximately one calendar month of persistent breach before the signal is triggered.
 - **OLS regression** - monthly frequency, levels specification. Stationarity not formally tested - results interpreted as descriptive. Low R² on yield-policy betas (0.03–0.07) confirms term premium dominates monetary policy in explaining gilt yield variation
 - **Event study** - z-scores relative to Jan–Sep 2022 pre-event window. Assumes approximately normally distributed daily yield changes - fat tails in practice mean true rarity of extreme moves is even greater than z-scores imply
 - **LDI simulation** - stylised illustrative example. Real LDI structures varied in leverage, instrument type, and margin mechanics. Purpose is to illustrate the liquidity crisis mechanics numerically

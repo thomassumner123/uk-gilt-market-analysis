@@ -21,7 +21,7 @@ Five findings stand out:
 
 **Markets rejected the transitory inflation narrative in July 2021 - five months before
 the BoE acted.** The 5yr breakeven inflation rate crossed a 3.5% threshold on a
-sustained basis in July 2021, when Bank Rate was 0.05% and realised CPI was 3.22%.
+sustained basis in July 2021, when Bank Rate was 0.05% and realised CPI was 2.02%.
 The gilt market stopped believing inflation was transitory before the BoE acknowledged
 it publicly.
 
@@ -194,7 +194,7 @@ consistent with anchored expectations given the measurement issues noted above.
 The sustained breach in July 2021 is marked - five months before the BoE's first rate hike.*
 
 The 5yr breakeven crossed 3.5% on a sustained basis in July 2021. At that point Bank
-Rate was 0.05%, realised CPI was 3.22%, and the BoE's August 2021 Monetary Policy
+Rate was 0.05%, realised CPI was 2.02%, and the BoE's August 2021 Monetary Policy
 Report still described inflation as transitory. The first rate hike would not come until
 December 2021, five months later. The gilt market had stopped believing the transitory
 narrative before the BoE acknowledged it.
